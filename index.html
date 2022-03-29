@@ -360,7 +360,7 @@
             console.log('Document Ready');
         })
         
-        $(window).load(function(){
+        $(window).on('load', (function(){
             console.log('Window Load');
             
             $('.menu-trigger').click(function(){
