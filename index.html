@@ -355,7 +355,13 @@
     <script>
         new WOW().init();
         
+        
+        $(document).ready(function(){
+            console.log('Document Ready');
+        })
+        
         $(window).load(function(){
+            console.log('Window Load');
             
             $('.menu-trigger').click(function(){
                 $(this).toggleClass('open');
