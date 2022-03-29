@@ -9,6 +9,7 @@
         <link rel="stylesheet" href="/plastic-zero/css/custom.css">
     </head>
     <body>
+        <div class="overlay" style="position: fixed; bottom: 0; right: 0; left: 0; top: 0; background-color: #2E4695;"></div>
         <div class="header">
             <div class="container">
                 <div class="row">
@@ -355,12 +356,12 @@
         new WOW().init();
         
         $(document).ready(function(){
+            $('.overlay').fadeOut();
+            
             $('.menu-trigger').click(function(){
                 $(this).toggleClass('open');
                 $(this).parent().toggleClass('active');
             });
-            
-            console.log('asf');
     
     
             // Number Counter
