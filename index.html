@@ -9,7 +9,10 @@
         <link rel="stylesheet" href="/plastic-zero/css/custom.css">
     </head>
     <body>
-<!--         <div class="overlay" style="position: fixed; bottom: 0; right: 0; left: 0; top: 0; background-color: #2E4695; z-index: 100;"></div> -->
+        <div class="overlay" style="position: fixed; bottom: 0; right: 0; left: 0; top: 0; background-color: #2E4695; z-index: 100; display: flex; align-items: center; justify-content: center;">
+          <img src="/plastic-zero/images/logo.png" alt="" width="150px">
+        </div>
+        
         <div class="header">
             <div class="container">
                 <div class="row">
@@ -354,14 +357,10 @@
     
     <script>
         new WOW().init();
-        
-        
-        $(document).ready(function(){
-            console.log('Document Ready');
-        });        
+               
         
         $(window).on('load', function(){
-            console.log('Window Load');
+            $('.overlay').fadeOut();
             
             $('.menu-trigger').click(function(){
                 $(this).toggleClass('open');
