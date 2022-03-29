@@ -523,7 +523,7 @@ section#seven .socials .item a .icon {
 
 .overlay {
     animation-name: pulse;
-    animation-duration: 1.0s;
+    animation-duration: .5s;
     animation-timing-function: ease-out;
     animation-iteration-count: infinite;
     animation-direction: alternate;
@@ -536,7 +536,7 @@ section#seven .socials .item a .icon {
     }
 
     100% {
-        transform: scale(1.2);
+        transform: scale(1.05);
     }
 }
 
