@@ -4,24 +4,24 @@
 /* Typography */
 @font-face {
   font-family: 'Buenos';
-  src: url("/assets/fonts/buenos-aires/BuenosAiresWebTrial-Regular.woff");
+  src: url("/plastic-zero/fonts/buenos-aires/BuenosAiresWebTrial-Regular.woff");
 }
 
 @font-face {
   font-family: 'Buenos';
-  src: url("/assets/fonts/buenos-aires/BuenosAiresWebTrial-RegularItalic.woff");
+  src: url("/plastic-zero/fonts/buenos-aires/BuenosAiresWebTrial-RegularItalic.woff");
   font-style: italic;
 }
 
 @font-face {
   font-family: 'Buenos';
-  src: url("/assets/fonts/buenos-aires/BuenosAiresWebTrial-Bold.woff");
+  src: url("/plastic-zero/fonts/buenos-aires/BuenosAiresWebTrial-Bold.woff");
   font-weight: bold;
 }
 
 @font-face {
   font-family: 'Buenos';
-  src: url("/assets/fonts/buenos-aires/BuenosAiresWebTrial-BoldItalic.woff");
+  src: url("/plastic-zero/fonts/buenos-aires/BuenosAiresWebTrial-BoldItalic.woff");
   font-style: italic;
   font-weight: bold;
 }
@@ -113,7 +113,7 @@ p:nth-last-child(1) {
   height: 53px;
   content: '';
   width: 53px;
-  background: url(/assets/images/icon-arrow-right.svg), #EEEEEE;
+  background: url(/plastic-zero/images/icon-arrow-right.svg), #EEEEEE;
   background-repeat: no-repeat;
   background-position: center;
   background-size: 20px;
@@ -402,7 +402,7 @@ section#seven .socials .item a .icon {
 }
 
 .footer .menu .mailchimp form input[type="submit"] {
-  background: url(/assets/images/icon-arrow-right.svg), #BBDBE8;
+  background: url(/plastic-zero/images/icon-arrow-right.svg), #BBDBE8;
   background-repeat: no-repeat;
   background-position: center;
   background-size: 20px;
@@ -417,7 +417,7 @@ section#seven .socials .item a .icon {
 }
 
 .footer .menu .mailchimp form input[type="submit"]:hover {
-  background: url(/assets/images/icon-arrow-right.svg), #f5d649;
+  background: url(/plastic-zero/images/icon-arrow-right.svg), #f5d649;
   background-repeat: no-repeat;
   background-position: center;
   background-size: 20px;
