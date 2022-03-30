@@ -170,7 +170,8 @@ img {
 }
 
 .card {
-    box-shadow: 10px 10px 35px rgba(0, 0, 0, 0.1);
+    // box-shadow: 10px 10px 35px rgba(0, 0, 0, 0.1);
+    box-shadow: 0px 5px 20px rgba(0, 0, 0, 0.1);
     border-radius: 20px;
     background: $white;
     border: none;
@@ -228,8 +229,8 @@ img {
 /* SECTIONS */
 section {
     &#one {
-        padding-bottom: 170px;
-        padding-top: 170px;
+        padding-bottom: 180px;
+        padding-top: 180px;
         min-height: 100vh;
 
         h1 {
@@ -295,8 +296,13 @@ section {
                 padding: 60px 34px;
 
                 img {
-                    max-width: 175px;
                     margin: 0 auto;
+                    max-width: 175px;
+                    margin-bottom: 15px;
+                }
+
+                h4 {
+                    margin-bottom: 15px;
                 }
             }
         }
@@ -360,7 +366,7 @@ section {
                         border-radius: 20px;
                         max-width: 280px;
                         overflow: hidden;
-                        margin: 10px 0;
+                        margin: 20px 0;
     
                         img {
                             border-radius: 20px;
@@ -571,8 +577,26 @@ section {
     width: 0%;
     left: 50%;
 }
-  
 
+
+.overlay {
+    animation-name: pulse;
+    animation-duration: .5s;
+    animation-timing-function: ease-out;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    animation-play-state: running;
+}
+
+@keyframes pulse {
+    0% {
+        transform: scale(1);
+    }
+
+    100% {
+        transform: scale(1.05);
+    }
+}
 
 
 /* RESPONSIVE */
@@ -680,9 +704,22 @@ section {
                 }
 
                 .text {
-                    padding: 45px;
+                    padding: 35px;
                 }
             }
+        }
+
+        &#five .cards {
+            margin-right: -12px;
+            margin-left: -12px;
+
+            .card {
+                padding: 30px 25px;
+            }
+        }
+
+        &#six .cards .card {
+            padding: 30px 25px;
         }
 
         &#seven .socials .item {
@@ -701,7 +738,7 @@ section {
         }
 
         .menu > * {
-            margin-bottom: 30px;
+            margin-bottom: 50px;
         }
     }
 }
