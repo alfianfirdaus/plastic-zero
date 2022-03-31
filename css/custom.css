@@ -1,12 +1,12 @@
 /* Typography */
 @font-face {
     font-family: 'Buenos';
-    src: url("/plastic-zero/fonts/buenos-aires/BuenosAiresWebTrial-Thin.woff");
+    src: url("/plastic-zero/fonts/buenos-aires/BuenosAiresWebTrial-Regular.woff");
   }
   
   @font-face {
     font-family: 'Buenos';
-    src: url("/plastic-zero/fonts/buenos-aires/BuenosAiresWebTrial-ThinItalic.woff");
+    src: url("/plastic-zero/fonts/buenos-aires/BuenosAiresWebTrial-RegularItalic.woff");
     font-style: italic;
   }
   
